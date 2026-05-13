@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -374,14 +373,14 @@ input,select{
 
             <div class="ticket-grid">
 
-                <div class="ticket-box active" onclick="pilihTiket('10K RUN',175000,this)">
-                    <div class="ticket-title">10K RUN</div>
+                <div class="ticket-box active" onclick="pilihTiket('10K',175000,this)">
+                    <div class="ticket-title">10K</div>
                     <div class="ticket-price">Rp 175.000</div>
                 </div>
 
-                <div class="ticket-box" onclick="pilihTiket('5K FUN RUN',100000,this)">
-                    <div class="ticket-title">5K FUN RUN</div>
-                    <div class="ticket-price">Rp 100.000</div>
+                <div class="ticket-box" onclick="pilihTiket('5K',150000,this)">
+                    <div class="ticket-title">5K</div>
+                    <div class="ticket-price">Rp 150.000</div>
                 </div>
 
             </div>
@@ -425,7 +424,7 @@ input,select{
             <div class="total-box">
 
                 <div style="margin-bottom:10px;">Kategori Tiket</div>
-                <h2 id="checkoutKategori">10K RUN</h2>
+                <h2 id="checkoutKategori">10K</h2>
 
                 <div style="margin-top:20px;">Jumlah Peserta</div>
                 <h2 id="checkoutJumlah">1 Orang</h2>
@@ -494,7 +493,7 @@ input,select{
 
 let jumlah = 1;
 let harga = 175000;
-let kategori = '10K RUN';
+let kategori = '10K';
 
 updateTotal();
 renderForm();
